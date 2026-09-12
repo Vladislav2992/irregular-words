@@ -12,7 +12,7 @@ defineProps<{
 </script>
 
 <template>
-  <div v-if="words.length > 0" v-for="word in words" class="row">
+  <div v-if="words.length" v-for="word in words" class="row">
     <span>{{ word.infinitive }}</span>
     <span>{{ word.past_simple }}</span>
     <span>{{ word.past_participle }}</span>
